@@ -53,6 +53,8 @@ Examples:
 - The actual question, clearly formulated.
 - NO preamble like "Daily Question:", "Here's today's question:" or similar. Just start with the context and question naturally, like a colleague asking something in chat.
 - Keep it concise and professional but not stiff.
+- Tag each question with its type: `#clarification`, `#research`, `#decision`, or `#follow-up`.
+- Link to the source: reference the specific document, task, or section that triggered the question (e.g. "In `plan.md`, section 'Phase 2'..." or "See `notes/call-2025-04-28.md`").
 
 ## After the User Answers
 
@@ -61,7 +63,9 @@ When the user responds:
 1. Append both the question AND the answer to `questions.md` in this format:
 
 ```
-## [Date] — [Short title]
+## [Date] — [Short title] #tag
+
+**Source:** [Link to the document/task/section that triggered this question]
 
 **Question:** [Your question]
 
